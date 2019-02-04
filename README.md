@@ -11,3 +11,14 @@ On a fairly modern system (Xeon E3-1270v3), it takes about 230µs to parse a sin
 
 If you're interested in a faster, non-Python alternative, you may also enjoy
 [rust-syslog-rfc5424](https://github.com/Roguelazer/rust-syslog-rfc5424).
+
+### Usage
+Install:
+
+```pip install -r requirements.txt```
+
+```python setup.py install```
+
+Run:
+
+```sudo ./syslog_server.py -p [udp|tcp] --port [port_number]```
